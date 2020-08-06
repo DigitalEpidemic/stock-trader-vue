@@ -17,6 +17,7 @@ Vue.filter("currency", (value) => {
 });
 
 const router = new VueRouter({
+  base: "/stock-trader-vue/",
   mode: "history",
   routes,
 });
